@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var myMessage: UILabel
+        myMessage=UILabel(frame:CGRectMake(30.0,50.0,300.0,50.0))
+        myMessage.font=UIFont.systemFont(ofSize: 48.0)
+        myMessage.text="Hello Xcode"
+        myMessage.textColor=UIColor(patternImage: UIImage(named:"Background")!)
+        view.addSubview(myMessage)
+        NSLog("Hello Xcode, Again")
     }
 
     override func didReceiveMemoryWarning() {

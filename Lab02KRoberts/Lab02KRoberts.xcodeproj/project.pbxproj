@@ -12,6 +12,7 @@
 		F036B082202021D700EA768A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F036B080202021D700EA768A /* Main.storyboard */; };
 		F036B084202021D700EA768A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F036B083202021D700EA768A /* Assets.xcassets */; };
 		F036B087202021D700EA768A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F036B085202021D700EA768A /* LaunchScreen.storyboard */; };
+		F036B08F202027BB00EA768A /* Test.wav in Resources */ = {isa = PBXBuildFile; fileRef = F036B08E202027BB00EA768A /* Test.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F036B083202021D700EA768A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F036B086202021D700EA768A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F036B088202021D700EA768A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F036B08E202027BB00EA768A /* Test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Test.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F036B07B202021D700EA768A /* Lab02KRoberts */ = {
 			isa = PBXGroup;
 			children = (
+				F036B08E202027BB00EA768A /* Test.wav */,
 				F036B07C202021D700EA768A /* AppDelegate.swift */,
 				F036B07E202021D700EA768A /* ViewController.swift */,
 				F036B080202021D700EA768A /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F036B08F202027BB00EA768A /* Test.wav in Resources */,
 				F036B087202021D700EA768A /* LaunchScreen.storyboard in Resources */,
 				F036B084202021D700EA768A /* Assets.xcassets in Resources */,
 				F036B082202021D700EA768A /* Main.storyboard in Resources */,
