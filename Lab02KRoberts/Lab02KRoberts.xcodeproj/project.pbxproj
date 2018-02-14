@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					F036B078202021D700EA768A = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -301,6 +302,7 @@
 				F036B08D202021D700EA768A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

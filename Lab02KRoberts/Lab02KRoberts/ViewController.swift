@@ -15,10 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         var myMessage: UILabel
-        myMessage=UILabel(frame:CGRectMake(30.0,50.0,300.0,50.0))
-        myMessage.font=UIFont.systemFont(ofSize: 48.0)
+        myMessage=UILabel(frame: CGRect(x: 50.0 , y: 50.0, width: 300.0, height: 50.0))
+        
         myMessage.text="Hello Xcode"
-        myMessage.textColor=UIColor(patternImage: UIImage(named:"Background")!)
+        myMessage.textColor=UIColor.red
+        //myMessage.font=.systemFontOfSize(48.0)
         view.addSubview(myMessage)
         NSLog("Hello Xcode, Again")
     }
