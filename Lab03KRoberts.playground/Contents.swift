@@ -55,10 +55,21 @@ func concatAll(names: [String], separator: String) -> String {
 }
 
 var names = ["billy", "randy", "joe"]
-print(concatAll(names: names, separator: "xxx"))
+//print(concatAll(names: names, separator: "xxx"))
+
+var separator = "xxx"
+var fullString = concatAll(names: names, separator: separator)
+print (fullString)
+
+for i in 0..<separator.characters.count {
+
+fullString.characters.dropLast()
+    }
+print(fullString)
 
 /* I could't get rid of the separator at the end of the string. I tried the following code but I don't know why it didn't work:
  
+
  for var i = 0 ; i < separator.characters.count ; i = i + 1 {
  namesConcat = (namesConcat.characters.dropLast())
  }
